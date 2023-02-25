@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="flex justify-between items-center h-24 px-4 max-w-[1240px] text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a] ">React.</h1>
-      <ul className="flex">
+      <ul className="hidden md:flex">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
