@@ -16,7 +16,7 @@ function Hero() {
             Fast, flexible financing for
           </p>
           <Typed
-            strings={['BTB', 'BTC', 'SASS']}
+            strings={['BTB', 'BTC', 'SASS', 'BNB']}
             typeSpeed={120}
             backSpeed={140}
           />
