@@ -1,4 +1,5 @@
 import React from 'react';
+import Typed from 'react-typed';
 
 function Hero() {
   return (
@@ -11,7 +12,14 @@ function Hero() {
           Grow with data.
         </h1>
         <div>
-          <p>Fast, flexible financing for</p>
+          <p className="md:text-5xl sm: text-4xl font-bold">
+            Fast, flexible financing for
+          </p>
+          <Typed
+            strings={['BTB', 'BTC', 'SASS']}
+            typeSpeed={120}
+            backSpeed={140}
+          />
         </div>
       </div>
     </div>
