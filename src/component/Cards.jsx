@@ -20,6 +20,7 @@ function Cards() {
             <p>1 Granted User</p>
             <p>Send up to 2 GB </p>
           </div>
+          <button type="button">Start Trial</button>
         </div>
       </div>
     </div>
