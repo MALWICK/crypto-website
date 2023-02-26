@@ -11,13 +11,22 @@ function Newsletter() {
           <p>Sign uo to our Newsletter and stay up to date</p>
         </div>
         <div className="my-4">
-          <input type="email" className="" placeholder="Enter Email" />
-          <button
-            className="bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 text-black"
-            type="button"
-          >
-            Notify me
-          </button>
+          <div className=" flex flex-col sm:flex-row items-center justify-between  w-full">
+            <input
+              type="email"
+              className="p-3 flex w-full rounded-md text-black"
+              placeholder="Enter Email"
+            />
+            <button
+              className="bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 text-black"
+              type="button"
+            >
+              Notify me
+            </button>
+          </div>
+          <p>
+            We care about the protection of your data. Read our privacy Policy.
+          </p>
         </div>
       </div>
     </div>
