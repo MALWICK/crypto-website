@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Analytics from './component/Analytics';
+import Cards from './component/Cards';
 import Hero from './component/Hero';
 import Navbar from './component/Navbar/Navbar';
 import Newsletter from './component/Newsletter';
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
+      <Cards />
     </div>
   );
 }
